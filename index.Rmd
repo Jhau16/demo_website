@@ -1,0 +1,25 @@
+---
+title: "About me"
+description: |
+
+site: distill::distill_website
+image: "LinkedIn2-modified.png"
+links:
+  - label: <i class="fab fa-twitter"></i> Twitter
+    url: "https://twitter.com/peterhau19675"
+  - label: <i class="fab fa-github"></i> GitHub
+    url: "https://github.com/Jhau16"
+  - label: <i class="fab fa-linkedin"></i> LinkedIn
+    url: "https://www.linkedin.com/in/jens-peter-hau/"
+  - label: <i class="fas fa-envelope"></i> Email
+    url: "mailto:jenspeter-@hotmail.com"
+preview: LinkedIn2-modified.png
+---
+![](LinkedIn2-modified.png){width=25%}
+
+My name is Jens, and my primary interests are within political economy with a focus on the nexus between finance, economic development and migration. Below is a sample of some of my work that used <i class="fab fa-r-project"></i> where I investigated how the process of economic development affected emigration incentives. To see more, click on the blog tab where I elaborate more on it.
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'} 
+knitr::include_url("C:/Users/PC/Desktop/R Working directory/data_website/emigrationstocks2000_v2.html")  
+```
+

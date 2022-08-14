@@ -1,0 +1,22 @@
+name: "data_website"
+title: "Jens Peter Hau"
+description: |
+  Data work
+theme: theme.css 
+output_dir: "_site"
+image: LinkedIn2-modified.png{width=20%}
+preview: LinkedIn2-modified.png
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Migration and economic development"
+      href: migration.html
+    - icon: fa fa-github
+      href: https://github.com/Jhau16
+    - icon: fa fa-twitter
+      href: https://twitter.com/peterhau19675
+    - icon: fa fa-linkedin
+      href: https://www.linkedin.com/in/jens-peter-hau/
+output: distill::distill_article
+

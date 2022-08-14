@@ -1,0 +1,41 @@
+---
+title: "Migration and economic development"
+description: |
+  Using data from the World Bank, this article examines the historical relationship between economic development and emigration from the period 1960-2000
+author:
+  - name: Jens Peter Hau 
+date: 08-14-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+### Introduction
+
+This article explores the relationship between economic development emigration rates ina historical perspective. Classical economic theories suggest that there is a linear relationship between economic development and emigration and as countries move from low-income to high-income, their emigration rates should fall concomitantly. However, there is much data to support that this theoretical relationship doesn't hold. Rather, the relationship between emigration rates and economic development seems to display an inverted U-shape. Such a relationship was first put forward by Wilbur Zelensky in 1971 and thus posits that middle-income countries display the highest emigration rates.
+
+To explore this relationship further, this article draws on data on emigration stocks form the [World Bank Data Bank](https://databank.worldbank.org/source/global-bilateral-migration) as well as the [Penn World Tables version 10.0](https://www.rug.nl/ggdc/productivity/pwt/?lang=en). To be amenable to visualization, methods using statistical programming for aggregation and data wrangling was employed and finally using ggplot2 and plotly to create the interactive graphs seen below. The complete methodology can be found here[link].
+
+The article is a further examination of the empirical work undertaken by Michael Clemens in his article ["Does development reduce migration? (2014)"](https://docs.iza.org/dp8592.pdf) and will suggest that while emigration and economic development does seem to display an inverted U-shape, the data seems to suggest that the factor of political economy plays a significant role in shaping and driving the mobility transition rather than just economic development in and of itself.
+
+### Theory and methodology
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'}
+knitr::include_url("C:/Users/PC/Desktop/R Working directory/data_website/emigrationstocks1960_v2.html") 
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'}
+knitr::include_url("C:/Users/PC/Desktop/R Working directory/data_website/emigrationstocks1970_v2.html")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'}
+knitr::include_url("C:/Users/PC/Desktop/R Working directory/data_website/emigrationstocks1980_v2.html")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'}
+knitr::include_url("C:/Users/PC/Desktop/R Working directory/data_website/emigrationstocks1990_v2.html")
+```
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'}
+knitr::include_url("C:/Users/PC/Desktop/R Working directory/data_website/emigrationstocks2000_v2.html")
+```

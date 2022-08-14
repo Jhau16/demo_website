@@ -1,0 +1,41 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T16:58:56+02:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "Blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T16:58:57+02:00"
+    },
+    {
+      "path": "index.html",
+      "title": "About me",
+      "author": [],
+      "contents": "\r\n\r\nMy name is Jens, and my primary interests are within political\r\neconomy with a focus on the nexus between finance, economic development\r\nand migration. Below is a sample of some of my work that used\r\n where I investigated how the process of\r\neconomic development affected emigration incentives. To see more, click\r\non the blog tab where I elaborate more on it.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T16:58:59+02:00"
+    },
+    {
+      "path": "migration.html",
+      "title": "Migration and economic development",
+      "description": "Using data from the World Bank, this article examines the historical relationship between economic development and emigration from the period 1960-2000\n",
+      "author": [
+        {
+          "name": "Jens Peter Hau",
+          "url": {}
+        }
+      ],
+      "date": "08-14-2022",
+      "contents": "\r\nIntroduction\r\nThis article explores the relationship between economic development\r\nemigration rates ina historical perspective. Classical economic theories\r\nsuggest that there is a linear relationship between economic development\r\nand emigration and as countries move from low-income to high-income,\r\ntheir emigration rates should fall concomitantly. However, there is much\r\ndata to support that this theoretical relationship doesn’t hold. Rather,\r\nthe relationship between emigration rates and economic development seems\r\nto display an inverted U-shape. Such a relationship was first put\r\nforward by Wilbur Zelensky in 1971 and thus posits that middle-income\r\ncountries display the highest emigration rates.\r\nTo explore this relationship further, this article draws on data on\r\nemigration stocks form the World\r\nBank Data Bank as well as the Penn World\r\nTables version 10.0. To be amenable to visualization, methods using\r\nstatistical programming for aggregation and data wrangling was employed\r\nand finally using ggplot2 and plotly to create the interactive graphs\r\nseen below. The complete methodology can be found here[link].\r\nThe article is a further examination of the empirical work undertaken\r\nby Michael Clemens in his article “Does development reduce\r\nmigration? (2014)” and will suggest that while emigration and\r\neconomic development does seem to display an inverted U-shape, the data\r\nseems to suggest that the factor of political economy plays a\r\nsignificant role in shaping and driving the mobility transition rather\r\nthan just economic development in and of itself.\r\nTheory and methodology\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-08-14T16:59:01+02:00"
+    }
+  ],
+  "collections": ["realblog/realblog.json"]
+}
